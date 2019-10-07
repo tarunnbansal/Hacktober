@@ -12,3 +12,12 @@ Resources and solutions for python related problems. Submit PRs and support #Ope
 - Solutions should be original (not copied from any website)
 - You can always ask for help, but do some google search prior to that.
 - That's it. You're Welcome.
+
+# List of Swags/ Freebies
+https://github.com/crweiner/hacktoberfest-swag-list
+
+# Sign Up Here
+https://hacktoberfest.digitalocean.com
+
+## Connect with me
+If you need any help, you can connect to me via linkedin. ( https://linkedin.com/in/tarunnbansal )
