@@ -1,0 +1,10 @@
+def kSmallest(arr,k):
+    if k<0:
+        print('Error : K should be between 0 to ',len(arr))
+        return
+    asc_arr=sorted(arr)     
+    print(asc_arr[k-1])
+                
+#DRIVER      
+arr=[-2,1,-4,2,8,5,9]
+kSmallest(arr,4)
