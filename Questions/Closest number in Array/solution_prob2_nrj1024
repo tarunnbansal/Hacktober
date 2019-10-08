@@ -1,0 +1,15 @@
+import sys
+
+def closestNum(arr,num):
+    min_diff=sys.maxsize
+    for i in arr:
+        diff=abs(i-num)
+        if diff<min_diff:
+            min_diff=diff
+            min_num=i
+            
+    print(min_num)
+                
+#DRIVER      
+arr=[-4,-2,1,2,5,8,9]
+closestNum(arr,-1)
