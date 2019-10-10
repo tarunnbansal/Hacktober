@@ -1,0 +1,9 @@
+def kthSmallest(array, l, k):   
+    array.sort() 
+    return array[k-1] 
+
+if __name__=='__main__': 
+    array = [6,8,2,12] 
+    l = len(array) 
+    k = 2
+    print("K'th smallest element is", kthSmallest(array, l, k))
