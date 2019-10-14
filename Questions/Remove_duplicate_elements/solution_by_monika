@@ -1,0 +1,11 @@
+# Python code to remove duplicate elements 
+def rm(duplicate): 
+	list = [] 
+	for num in duplicate: 
+		if num not in list: 
+			list.append(num) 
+	return list 
+
+duplicate = [6,8,3,5,8,9,6] 
+print(rm(duplicate)) 
+
