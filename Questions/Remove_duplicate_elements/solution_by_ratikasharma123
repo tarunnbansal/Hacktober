@@ -1,0 +1,9 @@
+def remove_dup(array): 
+    final = [] 
+    for i in remove_dup: 
+        if i not in final: 
+            final.append(i) 
+    return final 
+     
+array = [1,5,3,2,5,1,7,3,2] 
+print(remove_dup(array)) 
