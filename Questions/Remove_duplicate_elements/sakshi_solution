@@ -1,0 +1,10 @@
+def Dup(arr):
+    non_dup=[]
+    for i in arr:
+        if i not in non_dup:
+            non_dup.append(i)
+            
+    print(non_dup)
+     
+arr=[2,6,4,7,9]
+Dup(arr)
